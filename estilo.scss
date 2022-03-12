@@ -1,0 +1,623 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&family=Montserrat&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+// CONSTANTES
+$verde:hsl(151,84%,42%);
+$azul: #007aff;
+$cinza:rgb(239, 240, 232);
+//
+
+// CONFIGURAÇÕES PADRÕES -INICIO- CONFIGURAÇÕES PADRÕES -INICIO- CONFIGURAÇÕES PADRÕES -INICIO- CONFIGURAÇÕES PADRÕES
+// Configuração padrão elementos de secção
+section{ 
+    width: 100%;
+    article{
+        display: flex;
+        align-items: center;
+        text-align: left;
+        max-width: 1366px;
+        background-color: transparent;
+        margin: auto;
+    }
+}///////////////////////
+
+
+// Configuração padrão de elementos de textual
+h1, h2{
+    font-family: 'Inter', sans-serif;
+}
+h1.h1Sec{
+    font-size: 32px;
+    color: $verde;
+    margin-bottom: 20px;
+}
+p.pSec,p.p, ul{
+    font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.325rem;
+    font-weight: 200;
+    line-height: 1.625;
+    letter-spacing: .1px;
+}///////////////////////
+// Configuração padrão de elementos button
+button{
+    font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 13px;
+    filter: contrast(0.75);
+    cursor: pointer;
+}
+button.botao-azulSec{
+    background-color: $azul;
+    color: white;
+    border: none;
+}
+button.botao-brancoSec{
+    background-color: transparent;
+    color: $azul;
+    border: 1px solid $azul;
+}///////////////////////
+// FIM CONFIGURAÇÕES PADRÕES -FIM- CONFIGURAÇÕES PADRÕES -FIM- CONFIGURAÇÕES PADRÕES -FIM- CONFIGURAÇÕES PADRÕES
+
+header.cabecalho{
+    width: 100%;
+    background: $verde;
+    position: fixed;
+    z-index: 2;
+    top: 0px;
+    nav.NavCabecalho{
+        max-width: 1366px;
+        height: 78px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 120px;
+        color: white;
+        img.Logo{
+            width: 120px;
+            height: 41px;
+        }
+        ul.ulCabecalho{
+            width: 710px;
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+            gap: 10px;
+            letter-spacing: 0.025em;
+            font-size: 0.875rem;
+            font-weight: 600;
+            font-family: 'Montserrat', sans-serif;
+            li.liCabecalho{
+                display: flex;
+                align-items: center;
+                transition: .5s;
+                gap: 5px;
+                position: relative;
+                filter: contrast(1);
+                cursor: pointer;
+                img.seta{
+                    width: 20px;
+                    height: 20px;
+                    transform: rotate(0deg);
+                    transition: .5s; 
+                    filter: invert(100%);
+                }
+            }
+            li.liCabecalho:hover{
+                filter: contrast(0.75);
+            }
+            
+        }
+        button.buttonCabecalho{
+            width: 146px;
+            height: 44px;
+            color: white;
+            font-size: 18px;
+            font-weight: 600;
+            border: none;
+            border-radius: 20px;
+            background-color: $azul;
+        }
+    }
+}
+
+main.main{
+    width: 100%;
+    margin-top: 78px;
+    overflow: hidden;
+    z-index: 1;
+    section.Sec.introducao{
+        article.ArtSec.introducao{
+            height: 874px;
+            background-image: url("C:/Users/emanel/Desktop/picpaycopia/Imagens/Iza.jpg");
+            background-size: 100% 874px;
+            background-repeat: no-repeat;
+            position: relative;
+            display: block;
+            div.BlocoLi{
+                position: fixed;
+                display: flex;
+                justify-content: center;
+                margin: auto;
+                width: 100%;
+                z-index: -1; 
+                div.PosicaoBlocoLi{
+                    display: block;
+                    width: 1366px;
+                    margin: auto;
+                    ul.ulbloco.dois{
+                        left: 420px;
+                    }
+                    ul.ulbloco.tres{
+                        left: 615px;
+                    }
+                    ul.ulbloco.quatro{
+                        left: 790px;
+                    }
+                    ul.ulbloco{                                  
+                        list-style: none;                                   
+                        position: absolute;
+                        top: -20px;
+                        left: 295px;
+                        transition: .5s;
+                        background-color: white;
+                        border-radius: 8px;
+                        padding: 5px 0px 5px 0px;
+                        opacity: 0%;
+                        li.ConteudoBlocoLI{                                       
+                            width: 100%;
+                            padding: 8px 15px 8px 15px;
+                            color: rgb(65, 63, 63);                         
+                            font-size: 0.875rem;
+                            line-height: 1.25rem;
+                            font-weight: 600;
+                            font-family: Montserrat, Arial, Helvetica, sans-serif;                                        
+                        }
+                        li.ConteudoBlocoLI:hover{
+                            background-color: rgb(247, 247, 247);
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+            div.PosicaoBannerIntroducao{
+                z-index: 1;
+                width: 672px;
+                position: absolute;
+                display: grid;
+                grid-template-columns: 1fr;
+                left: 347px;
+                top: 457px;
+                gap: 20px;
+                img.BannerIntro{
+                    width: 100%;
+                    
+                }
+                button.botao-azulSec.introducao{
+                    width: 172px;
+                    height: 40px;
+                    margin: auto;
+                }
+            }
+        }
+    }
+
+    section.Sec.um{
+        background-color: white;
+        article.ArtSec.um{
+           gap: 32px;
+            img.BannerSec.um{
+               width: 683px;
+               height: 520px;
+            }
+            div.ConteudoTextualSec.um{
+               width: 610px;
+                button.botao-azulSec.um{
+                    width: 172px;
+                    height: 40px;
+                    margin-top: 15px;
+                }
+            }
+        }
+    }
+
+    section.Sec.dois{
+        background-color: $cinza;
+        article.ArtSec.dois{  
+            div.ConteudoTextualSec.dois{
+                width: 610px;
+                margin-left: 25px;
+                p.pSec.dois{
+                    font-size: 1.225rem;
+                }
+                h1.h1Sec.dois{
+                    font-size: 29px;
+                }
+                button.botao-azulSec.dois{
+                    width: 259px;
+                    height: 38px;
+                    margin-top: 15px;
+                }
+            }
+            img.BannerSec.dois{
+                width: 683px;
+                height: 436px;
+            }
+        }
+    }
+
+    section.Sec.tres{
+        background-color: white;
+        h1.h1Sec.tres{
+            text-align: center;
+            margin:33px auto 33px auto ;
+            font-size: 29px;
+        }
+    }
+
+    section.Sec.swip{
+        background-color: white;
+        div.DivSec.swip{
+            width: 1366px;
+            margin: auto;
+            overflow: hidden;
+            display: flex;
+            gap: 40px;
+            transition: 1s;
+            article.ArtSec.swip.um{
+                margin-left: 0;
+            }
+            article.ArtSec.swip{
+                width: 1366px;
+                gap: 32px;
+                transition: 1s;
+                img.BannerSec.swip{
+                    width: 683px;
+                    height: 455px;
+                }
+                div.ConteudoTextualSec.swip{
+                    width: 610px;
+                    h2.h2Sec.swip{
+                        margin-bottom: 20px;
+                    }
+                    button.botao-brancoSec.swip{
+                        width: 190px;
+                        height: 40px;
+                        margin-top: 15px;
+                    }
+                }
+            }
+        }
+    }
+
+    section.Sec.swipButtons{
+        width: 100%;
+        div.DivSec.swipButtons{
+            max-width: 1366px;
+            margin: 50px auto 95px;
+            display: flex;
+            justify-content: center;
+            gap: 7px;
+            div.ConteudoSec.swipButtons{
+                width: 20px;
+                height: 20px;
+                display: inline-block;
+                margin: 0;
+                position: relative;
+                input.BotaoRadio{
+                    position: absolute;
+                    cursor: pointer;
+                    z-index: 3;
+                    opacity: 0;
+                }
+                input.BotaoRadio:checked ~ span.SpanBotaoRadio::after{
+                    z-index: 2;
+                }
+                span.SpanBotaoRadio{
+                    position: absolute;
+                }
+                span.SpanBotaoRadio::before{
+                    content: '';
+                    position: absolute;
+                    width: 15px;
+                    height: 15px;
+                    border-radius: 50%;
+                    top: -1px;
+                    left: -1px;
+                    background-color: rgb(161, 161, 161);
+                    border: 1px solid white;
+                    z-index: 1;
+                    opacity: 1;
+                }
+                span.SpanBotaoRadio::after{
+                    content: '';
+                    position: absolute;
+                    top: -1px;
+                    left: -1px;
+                    width: 15px;
+                    height: 15px;
+                    border-radius: 50%;
+                    background-color: $verde;
+                    border: 1px solid white;
+                    z-index: 0;
+                    opacity: 1;
+                }
+            }
+        }
+    }
+
+    section.Sec.quatro{
+        background-color: $cinza;
+        height: 600px;
+        display: flex;
+        align-items: center;
+        article.ArtSec.quatro{
+            width: 1366px;
+            gap: 130px;
+            div.ConteudoTextualSec.quatro{
+                width: 700px;
+                margin-left: 25px;
+                h1.h1Sec.quatro{
+                    line-height: 1;
+                }
+                p.pSec.quatro{
+                    width: 610px;
+                }
+                button.botao-brancoSec.quatro{
+                    width: 260px;
+                    height: 40px;
+                    margin-top: 15px;
+                }
+            }
+            img.BannerSec.quatro{
+                width: 337px;
+                height: 337px;
+            }
+        }
+    }
+
+    section.Sec.cinco{
+        background-color: white;
+        article.ArtSec.cinco{
+            gap: 35px;
+            img.BannerSec.cinco{
+                width: 675px;
+                height: 675px;
+            }
+            div.ConteudoTextualSec.cinco{
+                width: 620px;
+                transform: scaleY(0.9);
+                h1.h1Sec.cinco{
+                    width:550px
+                }
+                p.pSec.cinco{
+                    line-height: 1.400;
+                    letter-spacing: .02px;
+                    font-size: 1.425rem;
+                }
+                button.botao-azulSec.quatro{
+                    width: 215px;
+                    height: 38px;
+                    margin-top: 15px;
+                }
+            }
+        }
+    }
+    
+    section.Sec.seis{
+        height: 590px;
+        background-color: $cinza;
+        text-align: center;
+        h1.h1Sec.seis{
+            padding-top: 40px;
+            margin: 0;
+        }
+        article.ArtSec.seis{
+            margin-top: 90px;
+            align-items: center;
+            justify-content: center;
+            div.bloco{
+                width: 385px;
+                margin: auto;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                gap: 20px;
+                button.botao-brancoSec.seis{
+                    width: 245px;
+                    height: 42px;
+                    transform: scaleX(1.1);
+                }
+                    p.pSec.seis{
+                    width: 320px;
+                    line-height: 1.350;
+                    transform: scaleX(1.1);
+                } 
+            }
+            div.bloco.um.secSeis{
+                img.ImagemUmSec.seis{
+                    width: 88px;
+                    height: 91px;
+                }
+            }
+            div.bloco.dois.secSeis{
+                img.ImagemDoisSec.seis{
+                    width: 190px;
+                    height: 91px;
+                }
+            }
+        }
+    }
+
+    section.Sec.sete{
+        background-color: white;
+        article.ArtSec.sete{
+            height: 590px;
+            align-items: center;
+            gap: 200px;
+            div.ConteudoTextualSec.sete{
+                margin-left: 35px;
+                width: 630px;
+                transform: scaleY(.95);
+                h1.h1Sec.sete{
+                    line-height: 1.100;
+                }
+                p.pSec.sete{
+                    font-size: 1.425rem;
+                    width: 630px;
+                    line-height: 1.300;
+                }
+                button.botao-azulSec.sete{
+                    width: 294px;
+                    height: 38px;
+                    margin-top: 25px;
+                }
+            }
+            img.BannerSec.sete{
+                width: 337.25px;
+                height: 337.25px;
+            }
+        }
+    }
+
+    section.Sec.oito{
+        background-color: $cinza;
+        height: 565px;
+        article.ArtSec.oito{
+            height: 100%;
+            gap: 200px;
+            img.BannerSec.oito{
+                width: 337.25px;
+                height: 310px;
+                margin-left: 170px;
+            }
+            div.ConteudoTextualSec.oito{
+                width: 610px;
+                h1.h1Sec.oito{
+                    color: black;
+                }
+                p.pSec.oito{
+                    transform: rotateY(.9);
+                    font-size: 1.400rem;
+                    line-height: 1.200;
+                }
+                button.botao-azulSec.oito{
+                    width: 252px;
+                    height: 38px;
+                    margin-top: 15px;
+                }
+            }
+        }
+    }
+}  
+
+footer.rodape{
+    width: 100%;
+    background-color: $verde;
+
+    section.SecRodape.um{
+        width: 1349px;
+        margin: auto;
+        div.TopoRodape{
+            width: 1255px;
+            margin:auto;
+            padding: 54px 0 37px 0;
+            border-bottom: 1px solid white;
+            display: flex;
+            justify-content: space-between;
+            img.LogoPicpay{
+                width: 330px;
+                height: 57px;
+                margin-left: 53px;
+            }
+            nav.RedesSociais{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                a.LinkRede{
+                    img.Imagem{
+                        cursor: pointer;
+                        width: 47px;
+                        height: 47px;
+                    }
+                }
+            }
+            nav.RedesSociais:hover{
+                padding-right: 15px;
+                border-right: 1px solid white;
+            }
+        }
+    }
+
+    section.SecRodape.dois{
+        div.ConteudoTextualSecRodape.dois{
+            width: 1255px;
+            margin: auto;
+            ul.ListaSecRodape{
+                list-style: none;
+                display: flex;
+                align-items: flex-start;
+                gap: 20px;
+                div.Coluna{
+                    margin: 0;
+                    width: auto;
+                    margin-top: 30px;
+                    li.Item{
+                        color: white;
+                        font-size: 1.250rem;
+                        line-height: 1.250;
+                        margin-bottom: 17px;
+                        cursor: pointer;
+                    }
+                }
+                div.Coluna:nth-child(1){
+                    width: 130px;
+                }
+                div.Coluna:nth-child(2){
+                    width: 180px;
+                }
+                div.Coluna:nth-child(n+3){
+                    width: 133px;
+                }   
+                div.Coluna:nth-child(n+2){
+                    margin-left: 45px;
+                }
+                div.Coluna:nth-child(6){
+                    margin-left: 90px;
+                }
+            }
+        }
+    }
+
+    section.SecRodape.tres{
+        width: 100%;
+        div.BaseRodape{
+            width: 1255px;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            padding-top: 45px;
+            align-items: center;
+            div.endereco{
+                p.p{
+                    font-size: 1.225rem;
+                    color: white;
+                }
+            }
+            div.AppStore{
+                display: flex;
+                gap: 15px;
+                img.Imagem{
+                    width: 146px;
+                    height: 48px;
+                }
+            }
+        }
+    }
+}

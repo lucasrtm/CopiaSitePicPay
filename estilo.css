@@ -1,0 +1,775 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@900&family=Montserrat&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+section {
+  width: 100%;
+}
+
+section article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: left;
+  max-width: 1366px;
+  background-color: transparent;
+  margin: auto;
+}
+
+h1, h2 {
+  font-family: 'Inter', sans-serif;
+}
+
+h1.h1Sec {
+  font-size: 32px;
+  color: #11c56e;
+  margin-bottom: 20px;
+}
+
+p.pSec, p.p, ul {
+  font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.325rem;
+  font-weight: 200;
+  line-height: 1.625;
+  letter-spacing: .1px;
+}
+
+button {
+  font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 13px;
+  -webkit-filter: contrast(0.75);
+          filter: contrast(0.75);
+  cursor: pointer;
+}
+
+button.botao-azulSec {
+  background-color: #007aff;
+  color: white;
+  border: none;
+}
+
+button.botao-brancoSec {
+  background-color: transparent;
+  color: #007aff;
+  border: 1px solid #007aff;
+}
+
+header.cabecalho {
+  width: 100%;
+  background: #11c56e;
+  position: fixed;
+  z-index: 2;
+  top: 0px;
+}
+
+header.cabecalho nav.NavCabecalho {
+  max-width: 1366px;
+  height: 78px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 120px;
+  color: white;
+}
+
+header.cabecalho nav.NavCabecalho img.Logo {
+  width: 120px;
+  height: 41px;
+}
+
+header.cabecalho nav.NavCabecalho ul.ulCabecalho {
+  width: 710px;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  gap: 10px;
+  letter-spacing: 0.025em;
+  font-size: 0.875rem;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+}
+
+header.cabecalho nav.NavCabecalho ul.ulCabecalho li.liCabecalho {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: .5s;
+  transition: .5s;
+  gap: 5px;
+  position: relative;
+  -webkit-filter: contrast(1);
+          filter: contrast(1);
+  cursor: pointer;
+}
+
+header.cabecalho nav.NavCabecalho ul.ulCabecalho li.liCabecalho img.seta {
+  width: 20px;
+  height: 20px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition: .5s;
+  transition: .5s;
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
+}
+
+header.cabecalho nav.NavCabecalho ul.ulCabecalho li.liCabecalho:hover {
+  -webkit-filter: contrast(0.75);
+          filter: contrast(0.75);
+}
+
+header.cabecalho nav.NavCabecalho button.buttonCabecalho {
+  width: 146px;
+  height: 44px;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  border-radius: 20px;
+  background-color: #007aff;
+}
+
+main.main {
+  width: 100%;
+  margin-top: 78px;
+  overflow: hidden;
+  z-index: 1;
+}
+
+main.main section.Sec.introducao article.ArtSec.introducao {
+  height: 874px;
+  background-image: url("C:/Users/emanel/Desktop/picpaycopia/Imagens/Iza.jpg");
+  background-size: 100% 874px;
+  background-repeat: no-repeat;
+  position: relative;
+  display: block;
+}
+
+main.main section.Sec.introducao article.ArtSec.introducao div.BlocoLi {
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+  width: 100%;
+  z-index: -1;
+}
+
+main.main section.Sec.introducao article.ArtSec.introducao div.BlocoLi div.PosicaoBlocoLi {
+  display: block;
+  width: 1366px;
+  margin: auto;
+}
+
+main.main section.Sec.introducao article.ArtSec.introducao div.BlocoLi div.PosicaoBlocoLi ul.ulbloco.dois {
+  left: 420px;
+}
+
+main.main section.Sec.introducao article.ArtSec.introducao div.BlocoLi div.PosicaoBlocoLi ul.ulbloco.tres {
+  left: 615px;
+}
+
+main.main section.Sec.introducao article.ArtSec.introducao div.BlocoLi div.PosicaoBlocoLi ul.ulbloco.quatro {
+  left: 790px;
+}
+
+main.main section.Sec.introducao article.ArtSec.introducao div.BlocoLi div.PosicaoBlocoLi ul.ulbloco {
+  list-style: none;
+  position: absolute;
+  top: -20px;
+  left: 295px;
+  -webkit-transition: .5s;
+  transition: .5s;
+  background-color: white;
+  border-radius: 8px;
+  padding: 5px 0px 5px 0px;
+  opacity: 0%;
+}
+
+main.main section.Sec.introducao article.ArtSec.introducao div.BlocoLi div.PosicaoBlocoLi ul.ulbloco li.ConteudoBlocoLI {
+  width: 100%;
+  padding: 8px 15px 8px 15px;
+  color: #413f3f;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 600;
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
+
+main.main section.Sec.introducao article.ArtSec.introducao div.BlocoLi div.PosicaoBlocoLi ul.ulbloco li.ConteudoBlocoLI:hover {
+  background-color: #f7f7f7;
+  cursor: pointer;
+}
+
+main.main section.Sec.introducao article.ArtSec.introducao div.PosicaoBannerIntroducao {
+  z-index: 1;
+  width: 672px;
+  position: absolute;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  left: 347px;
+  top: 457px;
+  gap: 20px;
+}
+
+main.main section.Sec.introducao article.ArtSec.introducao div.PosicaoBannerIntroducao img.BannerIntro {
+  width: 100%;
+}
+
+main.main section.Sec.introducao article.ArtSec.introducao div.PosicaoBannerIntroducao button.botao-azulSec.introducao {
+  width: 172px;
+  height: 40px;
+  margin: auto;
+}
+
+main.main section.Sec.um {
+  background-color: white;
+}
+
+main.main section.Sec.um article.ArtSec.um {
+  gap: 32px;
+}
+
+main.main section.Sec.um article.ArtSec.um img.BannerSec.um {
+  width: 683px;
+  height: 520px;
+}
+
+main.main section.Sec.um article.ArtSec.um div.ConteudoTextualSec.um {
+  width: 610px;
+}
+
+main.main section.Sec.um article.ArtSec.um div.ConteudoTextualSec.um button.botao-azulSec.um {
+  width: 172px;
+  height: 40px;
+  margin-top: 15px;
+}
+
+main.main section.Sec.dois {
+  background-color: #eff0e8;
+}
+
+main.main section.Sec.dois article.ArtSec.dois div.ConteudoTextualSec.dois {
+  width: 610px;
+  margin-left: 25px;
+}
+
+main.main section.Sec.dois article.ArtSec.dois div.ConteudoTextualSec.dois p.pSec.dois {
+  font-size: 1.225rem;
+}
+
+main.main section.Sec.dois article.ArtSec.dois div.ConteudoTextualSec.dois h1.h1Sec.dois {
+  font-size: 29px;
+}
+
+main.main section.Sec.dois article.ArtSec.dois div.ConteudoTextualSec.dois button.botao-azulSec.dois {
+  width: 259px;
+  height: 38px;
+  margin-top: 15px;
+}
+
+main.main section.Sec.dois article.ArtSec.dois img.BannerSec.dois {
+  width: 683px;
+  height: 436px;
+}
+
+main.main section.Sec.tres {
+  background-color: white;
+}
+
+main.main section.Sec.tres h1.h1Sec.tres {
+  text-align: center;
+  margin: 33px auto 33px auto;
+  font-size: 29px;
+}
+
+main.main section.Sec.swip {
+  background-color: white;
+}
+
+main.main section.Sec.swip div.DivSec.swip {
+  width: 1366px;
+  margin: auto;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 40px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+main.main section.Sec.swip div.DivSec.swip article.ArtSec.swip.um {
+  margin-left: 0;
+}
+
+main.main section.Sec.swip div.DivSec.swip article.ArtSec.swip {
+  width: 1366px;
+  gap: 32px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+main.main section.Sec.swip div.DivSec.swip article.ArtSec.swip img.BannerSec.swip {
+  width: 683px;
+  height: 455px;
+}
+
+main.main section.Sec.swip div.DivSec.swip article.ArtSec.swip div.ConteudoTextualSec.swip {
+  width: 610px;
+}
+
+main.main section.Sec.swip div.DivSec.swip article.ArtSec.swip div.ConteudoTextualSec.swip h2.h2Sec.swip {
+  margin-bottom: 20px;
+}
+
+main.main section.Sec.swip div.DivSec.swip article.ArtSec.swip div.ConteudoTextualSec.swip button.botao-brancoSec.swip {
+  width: 190px;
+  height: 40px;
+  margin-top: 15px;
+}
+
+main.main section.Sec.swipButtons {
+  width: 100%;
+}
+
+main.main section.Sec.swipButtons div.DivSec.swipButtons {
+  max-width: 1366px;
+  margin: 50px auto 95px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 7px;
+}
+
+main.main section.Sec.swipButtons div.DivSec.swipButtons div.ConteudoSec.swipButtons {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  margin: 0;
+  position: relative;
+}
+
+main.main section.Sec.swipButtons div.DivSec.swipButtons div.ConteudoSec.swipButtons input.BotaoRadio {
+  position: absolute;
+  cursor: pointer;
+  z-index: 3;
+  opacity: 0;
+}
+
+main.main section.Sec.swipButtons div.DivSec.swipButtons div.ConteudoSec.swipButtons input.BotaoRadio:checked ~ span.SpanBotaoRadio::after {
+  z-index: 2;
+}
+
+main.main section.Sec.swipButtons div.DivSec.swipButtons div.ConteudoSec.swipButtons span.SpanBotaoRadio {
+  position: absolute;
+}
+
+main.main section.Sec.swipButtons div.DivSec.swipButtons div.ConteudoSec.swipButtons span.SpanBotaoRadio::before {
+  content: '';
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  top: -1px;
+  left: -1px;
+  background-color: #a1a1a1;
+  border: 1px solid white;
+  z-index: 1;
+  opacity: 1;
+}
+
+main.main section.Sec.swipButtons div.DivSec.swipButtons div.ConteudoSec.swipButtons span.SpanBotaoRadio::after {
+  content: '';
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #11c56e;
+  border: 1px solid white;
+  z-index: 0;
+  opacity: 1;
+}
+
+main.main section.Sec.quatro {
+  background-color: #eff0e8;
+  height: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main.main section.Sec.quatro article.ArtSec.quatro {
+  width: 1366px;
+  gap: 130px;
+}
+
+main.main section.Sec.quatro article.ArtSec.quatro div.ConteudoTextualSec.quatro {
+  width: 700px;
+  margin-left: 25px;
+}
+
+main.main section.Sec.quatro article.ArtSec.quatro div.ConteudoTextualSec.quatro h1.h1Sec.quatro {
+  line-height: 1;
+}
+
+main.main section.Sec.quatro article.ArtSec.quatro div.ConteudoTextualSec.quatro p.pSec.quatro {
+  width: 610px;
+}
+
+main.main section.Sec.quatro article.ArtSec.quatro div.ConteudoTextualSec.quatro button.botao-brancoSec.quatro {
+  width: 260px;
+  height: 40px;
+  margin-top: 15px;
+}
+
+main.main section.Sec.quatro article.ArtSec.quatro img.BannerSec.quatro {
+  width: 337px;
+  height: 337px;
+}
+
+main.main section.Sec.cinco {
+  background-color: white;
+}
+
+main.main section.Sec.cinco article.ArtSec.cinco {
+  gap: 35px;
+}
+
+main.main section.Sec.cinco article.ArtSec.cinco img.BannerSec.cinco {
+  width: 675px;
+  height: 675px;
+}
+
+main.main section.Sec.cinco article.ArtSec.cinco div.ConteudoTextualSec.cinco {
+  width: 620px;
+  -webkit-transform: scaleY(0.9);
+          transform: scaleY(0.9);
+}
+
+main.main section.Sec.cinco article.ArtSec.cinco div.ConteudoTextualSec.cinco h1.h1Sec.cinco {
+  width: 550px;
+}
+
+main.main section.Sec.cinco article.ArtSec.cinco div.ConteudoTextualSec.cinco p.pSec.cinco {
+  line-height: 1.400;
+  letter-spacing: .02px;
+  font-size: 1.425rem;
+}
+
+main.main section.Sec.cinco article.ArtSec.cinco div.ConteudoTextualSec.cinco button.botao-azulSec.quatro {
+  width: 215px;
+  height: 38px;
+  margin-top: 15px;
+}
+
+main.main section.Sec.seis {
+  height: 590px;
+  background-color: #eff0e8;
+  text-align: center;
+}
+
+main.main section.Sec.seis h1.h1Sec.seis {
+  padding-top: 40px;
+  margin: 0;
+}
+
+main.main section.Sec.seis article.ArtSec.seis {
+  margin-top: 90px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main.main section.Sec.seis article.ArtSec.seis div.bloco {
+  width: 385px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  gap: 20px;
+}
+
+main.main section.Sec.seis article.ArtSec.seis div.bloco button.botao-brancoSec.seis {
+  width: 245px;
+  height: 42px;
+  -webkit-transform: scaleX(1.1);
+          transform: scaleX(1.1);
+}
+
+main.main section.Sec.seis article.ArtSec.seis div.bloco p.pSec.seis {
+  width: 320px;
+  line-height: 1.350;
+  -webkit-transform: scaleX(1.1);
+          transform: scaleX(1.1);
+}
+
+main.main section.Sec.seis article.ArtSec.seis div.bloco.um.secSeis img.ImagemUmSec.seis {
+  width: 88px;
+  height: 91px;
+}
+
+main.main section.Sec.seis article.ArtSec.seis div.bloco.dois.secSeis img.ImagemDoisSec.seis {
+  width: 190px;
+  height: 91px;
+}
+
+main.main section.Sec.sete {
+  background-color: white;
+}
+
+main.main section.Sec.sete article.ArtSec.sete {
+  height: 590px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 200px;
+}
+
+main.main section.Sec.sete article.ArtSec.sete div.ConteudoTextualSec.sete {
+  margin-left: 35px;
+  width: 630px;
+  -webkit-transform: scaleY(0.95);
+          transform: scaleY(0.95);
+}
+
+main.main section.Sec.sete article.ArtSec.sete div.ConteudoTextualSec.sete h1.h1Sec.sete {
+  line-height: 1.100;
+}
+
+main.main section.Sec.sete article.ArtSec.sete div.ConteudoTextualSec.sete p.pSec.sete {
+  font-size: 1.425rem;
+  width: 630px;
+  line-height: 1.300;
+}
+
+main.main section.Sec.sete article.ArtSec.sete div.ConteudoTextualSec.sete button.botao-azulSec.sete {
+  width: 294px;
+  height: 38px;
+  margin-top: 25px;
+}
+
+main.main section.Sec.sete article.ArtSec.sete img.BannerSec.sete {
+  width: 337.25px;
+  height: 337.25px;
+}
+
+main.main section.Sec.oito {
+  background-color: #eff0e8;
+  height: 565px;
+}
+
+main.main section.Sec.oito article.ArtSec.oito {
+  height: 100%;
+  gap: 200px;
+}
+
+main.main section.Sec.oito article.ArtSec.oito img.BannerSec.oito {
+  width: 337.25px;
+  height: 310px;
+  margin-left: 170px;
+}
+
+main.main section.Sec.oito article.ArtSec.oito div.ConteudoTextualSec.oito {
+  width: 610px;
+}
+
+main.main section.Sec.oito article.ArtSec.oito div.ConteudoTextualSec.oito h1.h1Sec.oito {
+  color: black;
+}
+
+main.main section.Sec.oito article.ArtSec.oito div.ConteudoTextualSec.oito p.pSec.oito {
+  -webkit-transform: rotateY(0.9);
+          transform: rotateY(0.9);
+  font-size: 1.400rem;
+  line-height: 1.200;
+}
+
+main.main section.Sec.oito article.ArtSec.oito div.ConteudoTextualSec.oito button.botao-azulSec.oito {
+  width: 252px;
+  height: 38px;
+  margin-top: 15px;
+}
+
+footer.rodape {
+  width: 100%;
+  background-color: #11c56e;
+}
+
+footer.rodape section.SecRodape.um {
+  width: 1349px;
+  margin: auto;
+}
+
+footer.rodape section.SecRodape.um div.TopoRodape {
+  width: 1255px;
+  margin: auto;
+  padding: 54px 0 37px 0;
+  border-bottom: 1px solid white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer.rodape section.SecRodape.um div.TopoRodape img.LogoPicpay {
+  width: 330px;
+  height: 57px;
+  margin-left: 53px;
+}
+
+footer.rodape section.SecRodape.um div.TopoRodape nav.RedesSociais {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+
+footer.rodape section.SecRodape.um div.TopoRodape nav.RedesSociais a.LinkRede img.Imagem {
+  cursor: pointer;
+  width: 47px;
+  height: 47px;
+}
+
+footer.rodape section.SecRodape.um div.TopoRodape nav.RedesSociais:hover {
+  padding-right: 15px;
+  border-right: 1px solid white;
+}
+
+footer.rodape section.SecRodape.dois div.ConteudoTextualSecRodape.dois {
+  width: 1255px;
+  margin: auto;
+}
+
+footer.rodape section.SecRodape.dois div.ConteudoTextualSecRodape.dois ul.ListaSecRodape {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 20px;
+}
+
+footer.rodape section.SecRodape.dois div.ConteudoTextualSecRodape.dois ul.ListaSecRodape div.Coluna {
+  margin: 0;
+  width: auto;
+  margin-top: 30px;
+}
+
+footer.rodape section.SecRodape.dois div.ConteudoTextualSecRodape.dois ul.ListaSecRodape div.Coluna li.Item {
+  color: white;
+  font-size: 1.250rem;
+  line-height: 1.250;
+  margin-bottom: 17px;
+  cursor: pointer;
+}
+
+footer.rodape section.SecRodape.dois div.ConteudoTextualSecRodape.dois ul.ListaSecRodape div.Coluna:nth-child(1) {
+  width: 130px;
+}
+
+footer.rodape section.SecRodape.dois div.ConteudoTextualSecRodape.dois ul.ListaSecRodape div.Coluna:nth-child(2) {
+  width: 180px;
+}
+
+footer.rodape section.SecRodape.dois div.ConteudoTextualSecRodape.dois ul.ListaSecRodape div.Coluna:nth-child(n+3) {
+  width: 133px;
+}
+
+footer.rodape section.SecRodape.dois div.ConteudoTextualSecRodape.dois ul.ListaSecRodape div.Coluna:nth-child(n+2) {
+  margin-left: 45px;
+}
+
+footer.rodape section.SecRodape.dois div.ConteudoTextualSecRodape.dois ul.ListaSecRodape div.Coluna:nth-child(6) {
+  margin-left: 90px;
+}
+
+footer.rodape section.SecRodape.tres {
+  width: 100%;
+}
+
+footer.rodape section.SecRodape.tres div.BaseRodape {
+  width: 1255px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 45px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer.rodape section.SecRodape.tres div.BaseRodape div.endereco p.p {
+  font-size: 1.225rem;
+  color: white;
+}
+
+footer.rodape section.SecRodape.tres div.BaseRodape div.AppStore {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 15px;
+}
+
+footer.rodape section.SecRodape.tres div.BaseRodape div.AppStore img.Imagem {
+  width: 146px;
+  height: 48px;
+}
+/*# sourceMappingURL=estilo.css.map */
