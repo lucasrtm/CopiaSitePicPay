@@ -6,5 +6,3 @@ details que se expande quando o cliente clica em alguma opção do cabeçalho.
 mas compensei isso no cabeçalho.
   Sempre procuro escrever sem auxílio da internet, e depois que finalizo, pesquiso como posso melhorar o código. 
   (Mais para frente quero deixar ele responsivo, e daí posso dizer que está 100%.).
-
-*não consegui utilizar gravadores de tela para mostrar o projeto.
