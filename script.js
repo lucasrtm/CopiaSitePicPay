@@ -11,7 +11,7 @@ function cliqueRadio(n){
     }
 }
 
-const arrIndice = [] // Coleta indices das constantes dentro da função CliqueNavLi()
+const arrIndice = [] // Coleta indices das constantes dentro da função CliqueNavLi() //
 function cliqueNavLi(n){
     const BlocoFixed = document.getElementsByClassName('BlocoLi') 
     const BlocoUl = document.getElementsByClassName('ulbloco')
